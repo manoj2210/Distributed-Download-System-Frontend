@@ -19,7 +19,7 @@ export default function MyApp(props) {
     <>
       <Head>
 
-        <title>SRM</title>
+        <title>DDS</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Head>
       <MuiThemeProvider theme={theme}>
@@ -35,6 +35,5 @@ export default function MyApp(props) {
 
 MyApp.propTypes = {
   Component: PropTypes.elementType.isRequired,
-  // eslint-disable-next-line react/forbid-prop-types
   pageProps: PropTypes.object.isRequired,
 };
